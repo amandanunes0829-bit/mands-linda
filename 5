@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    double preco, dinheiro, troco;
+    int quantidade;
+
+    scanf("%lf %d %lf", &preco, &quantidade, &dinheiro);
+    troco = dinheiro - (preco * quantidade);
+
+    printf("TROCO = %.2lf\n", troco);
+    return 0;
+}
